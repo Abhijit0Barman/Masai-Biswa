@@ -1,13 +1,10 @@
-let str="mada";
-let rev="";
+let str="112211";
+let reb="";
 for(let a=str.length-1;a>=0;a--)
 {
-    rev+=str[a]
+    reb+=str[a];
 }
-if(rev==str)
+if(reb===str)
 {
-    console.log(str,"is a Plaindrome")
-}
-else{
-    console.log(str,"is not a palindrome")
+    console.log(str,"is a Plaindrome");
 }
